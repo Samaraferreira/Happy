@@ -1,0 +1,19 @@
+@import "./colors.scss";
+
+$font: Nunito, sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EBF2F5;
+  color: $white;
+}
+
+body, input, button, textarea {
+  font: 600 18px $font;
+}
