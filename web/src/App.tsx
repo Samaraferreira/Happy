@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
+import "leaflet/dist/leaflet.css";
 
-import './styles/global.scss';
+import "./styles/global.scss";
 
-import Routes from './routes';
+import Routes from "./routes";
 
 function App() {
   return <Routes />;
